@@ -1,0 +1,81 @@
+html,body {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+logo {
+    font-family: 'Rock Salt', cursive;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    padding-bottom: 16px 0px 16px;
+    border-bottom: double;
+}
+logo a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    font-family: 'Rock Salt', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:#5c5c5c;
+}
+
+
+main {
+    padding: 32px 16px;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    max-width: 1080px;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 32px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #5c5c5c;
+}
+
+h1{
+    font-family: "Rock Salt", cursive;
+    font-size:16px;
+}
+
+@media (min-width: 768px) {
+    logo {
+        text-align: right;
+        font-size: 16px;
+        margin: 16px 0 0 25%;
+        padding-right:16px;
+    }
+    nav {
+        justify-content: space-between;
+        margin: 0 0 0 25%;
+        padding: 0px 16px 0px 64px;
+        flex-direction: row;
+    }
+    section {
+        border: none;
+    }
+}
